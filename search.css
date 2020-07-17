@@ -1,0 +1,62 @@
+@import url("./reset.css");
+
+.round-img {
+  border-radius: 50%;
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.google-logo {
+  width: 96px;
+}
+
+.search-box {
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 676px;
+  border-radius: 24px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  left: 170px;
+}
+
+.search-box:hover {
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.search-field {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  width: 3rem;
+}
+
+.app-icon {
+  margin-right: 1.5rem;
+  fill: #666;
+}
+
+.separator-vertical {
+  border-right: 1px solid #ddd;
+  height: 26px;
+}
+
+.top-right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
